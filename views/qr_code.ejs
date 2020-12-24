@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-GENERATOR</title>
+    <style>
+        .content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">QR CODE</h1>
+    <main>
+        <div class="content">
+            <img src="<%=url%>" alt="QR CODE">
+            <div style="padding-left: 1.2em;">
+                <a href="image/png"></a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
